@@ -9,9 +9,11 @@ Exercice 2 - Tri de tableaux par sélection :
 
 	Terminé sans les assertions car je n'ai pas compris.
 
+//pause midi//
+
 Exercice 3 - Recherche dichotomique dans un tableau :
 
-	
+	Terminé sans la 3
 
 Exercice 4 - Recherche du maximum dans un tableau :
 
