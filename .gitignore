@@ -42,3 +42,7 @@ local.properties
 # Locally stored "Eclipse launch configurations"
 *.launch
 /.clover/
+
+#Rendus td
+*.odt
+*.pdf
