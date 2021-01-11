@@ -1,5 +1,43 @@
-[3,25,50,8,1,3,49]
-[3,3,25,50,8,1,49]
-[1,3,3,25,50,8,49]
-[1,3,3,8,25,50,49]
-[1,3,3,8,25,49,50]
+M415 - Complements d informatique en vue d'une insertion immediate
+TD1 - Correction et terminaison des algorithmes
+
+Exercice 1 - Boucles imbriquées :
+
+1) bonjour1(5) affiche 25 fois "Bonjour 1"
+2) bonjour2(5) affiche 10 fois "Bonjour 2"
+3) bonjour1 affiche n² fois "Bonjour 1"
+4) bonjour2 affiche n(n-1)/2 fois "Bonjour 2"
+
+Exercice 2 - Tri de tableaux par sélection :
+
+1)
+
+Pour i=0 : [3, 25, 50, 8, 1, 3, 49]
+Pour i=1 : [1, 25, 50, 8, 3, 3, 49]
+Pour i=2 : [1, 3, 50, 8, 25, 3, 49]
+Pour i=3 : [1, 3, 3, 8, 25, 50, 49]
+Pour i=4 : [1, 3, 3, 8, 25, 50, 49]
+Pour i=5 : [1, 3, 3, 8, 25, 50, 49]
+Pour i=6 : [1, 3, 3, 8, 25, 49, 50]
+
+2) On compte le nombre de passages sur l'instruction if(). On passe *(n-1) + (n-2) + ... + 1 + 0* fois sur cette instruction n(n-1)/2 fois au total
+
+3) Pour n=7, on a :
+
+n(n-1)/2 = 7(7-1)/2
+	 = 7*6/2
+	 = 7*3
+	 = 21
+
+On a donc 21 passages
+
+4) Le nombre d'étapes sera le même. Donc le tri par sélection n'est pas plus rapide si le tableau est déjà trié à la base.
+
+5) Preconditions du tri par sélection : tab est un tableau de n entiers
+   Postconditions du tri par sélection : tab est un tableau de n entiers trié par ordre croissant
+
+Exercice 3 - Recherche dichotomique dans un tableau :
+
+
+
+
